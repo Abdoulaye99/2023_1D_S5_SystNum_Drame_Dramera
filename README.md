@@ -14,10 +14,12 @@ Les GPIO peuvent être configurés en entrée ou en sortie en utilisant les regi
     5.  Listes les pin qui sont reliés au micro-controleur et expliciter leur rôle.
     
     6.  Etablir un tableau d'association entre les pins du composant et celle du micro-controleur.
+    
     7.  A quoi servent les pins A0, A1 et A2 ? Qu'est ce que l'opcode ?
     
 Les pins A0, A1 et A2 sont des broches d’adresse qui permettent de configurer l’adresse matérielle du composant.
 L’opcode est un code d’opération qui est utilisé pour spécifier l’opération à effectuer sur le MCP23S17
+
     8.  A quoi servent les pins INTA et INTB ?
     
 Les pins INTA et INTB sont des broches d’interruption qui sont utilisées pour signaler au microcontrôleur qu’un changement d’état s’est produit sur les GPIO
